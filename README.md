@@ -5,7 +5,7 @@
   ## Description
   This application enables the user to write and save notes, using Express.js back end. 
     
-  ![Preview](public/assets/screenshots/Capture1.PNG)
+  ![Preview](/screenshots/Capture1.PNG)
 
   ## Table of Contents
   - [Installation](#installation)
@@ -23,7 +23,7 @@
   ## Usage
   The user write down a note in the webpage, with a title and description and the application saves the info and displays on a history panel on the left side.
   
-  ![Preview](public/assets/screenshots/Capture2.PNG)
+  ![Preview](/screenshots/Capture2.PNG)
   
   ## Features
   1. The page contains saved notes in the left-side column.
