@@ -15,3 +15,7 @@ app.use(express.json());
 app.listen(PORT, () =>
   console.log("App listening at " + PORT)
 );
+
+
+//Html Routes - notes.html and index.html
+//API Routes - GET - /api/notes - should read db.json and POST should receive a new note
