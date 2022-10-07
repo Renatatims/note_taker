@@ -14,6 +14,7 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+//Connects the path from API and Html routes.
 apiRoute(app);
 htmlRoute(app);
 
@@ -21,7 +22,6 @@ htmlRoute(app);
 app.listen(PORT, () =>
   console.log("App listening at " + PORT)
 );
-
 
 //Html Routes - notes.html and index.html
 //API Routes - GET - /api/notes - should read db.json and POST should receive a new note
