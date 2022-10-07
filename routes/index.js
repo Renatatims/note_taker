@@ -1,13 +1,17 @@
 const path = require('path');
-const indexFile = require ('../public/index.html');
-const notesFile = require ('../public/notes.html');
+
+const indexFile = "../public/index.html"
+const notesFile = "../public/notes.html";
 
 function htmlRoutes (app){
-    app.get ('/', (req, res) => 
-    res.sendFile (indexFile));
-
-    app.get ('/notes', (req,res) =>
-    res.sendFile (notesFile));
+    app.get('/', (req, res) =>
+    res.sendFile(path.join(__dirname, indexFile))
+  );
+  
+  // Serve the notes page
+  app.get('/notes', (req, res) =>
+    res.sendFile(path.join(__dirname, notesFile))
+  );
     
 }
 

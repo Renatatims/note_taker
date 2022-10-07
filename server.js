@@ -3,6 +3,10 @@ const path = require('path');
 const app = express();
 const PORT = 3001; 
 
+//Routes//
+const apiRoute = require ("./routes/api.js");
+const htmlRoute = require ("./routes/index.js");
+
 //Uses static files from the '/public/' folder
 app.use(express.static("public"));
 
@@ -10,6 +14,8 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+apiRoute(app);
+htmlRoute(app);
 
 // Listen for connections
 app.listen(PORT, () =>
