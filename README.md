@@ -7,6 +7,8 @@
     
   ![Preview](/screenshots/Capture1.PNG)
 
+  Application deployed with Heroku, please follow the link: https://note-taker-4546.herokuapp.com/ 
+
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -19,6 +21,16 @@
   
   ## Installation
   The application contains a db.json file on the back end that is used to store and retrieve notes using the fs module.
+  This application requires the installation of inquirer express. Please go to the terminal and type in the following:
+```
+npm i express
+````
+This command will download the "node_modules".
+
+Once downloaded, please type in the below to start the application:
+```
+node server 
+````
 
   ## Usage
   The user write down a note in the webpage, with a title and description and the application saves the info and displays on a history panel on the left side.
@@ -44,7 +56,10 @@
   Please feel free to send a pull request, the following is my GitHub account: https://github.com/Renatatims
 
   ## Tests
-  Enter a note and check how this note will be displayed and saved on the left panel
+  Enter a note and check how this note will be displayed and saved on the left panel.
+  
+  Application was deployed with Heroku, please follow the link: https://note-taker-4546.herokuapp.com/ 
+  In the terminal you can type in "node server" and the application will run in the localhost:3001 as well.
 
   ## Questions
   If you have any questions please contact me at:
