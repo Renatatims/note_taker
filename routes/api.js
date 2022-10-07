@@ -36,7 +36,9 @@ function noteTaker(app){
                 res.send(notesArray[i]);
                 console.log("The following note was deleted", (notesArray[i]));
                 notesArray.splice(i,1);
-                //console.log(notesArray);    
+                //console.log(notesArray);
+                //added break to continue deteling messages
+                break;    
             }
         }});
         
