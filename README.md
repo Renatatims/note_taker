@@ -7,7 +7,7 @@
     
   ![Preview](/screenshots/Capture1.PNG)
 
-  Application deployed with Heroku, please follow the link: https://note-taker-4546.herokuapp.com/ 
+  Application deployed with Heroku, please follow the link: https://renata-note-taker.herokuapp.com/
 
   ## Table of Contents
   - [Installation](#installation)
